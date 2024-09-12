@@ -1,0 +1,161 @@
+* {
+    margin: 0px;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* Navigation bar */
+body{
+    list-style: none;
+text-decoration: none;
+}
+.main{
+    display: flex;
+    text-decoration: none;
+
+}
+
+/* .nav{
+    height: 110px;
+    width: 100%;
+    display: flex;
+    align-items:center;
+    justify-content:space-around;
+    padding: 0 50px;
+    margin-right: 25px;
+    margin-left: 25px;
+    list-style: none;
+    list-style-type: none;
+
+} */
+.header{
+    display: flex;
+    width: 100%;
+    text-decoration: none;
+    list-style: none;
+}
+.links{
+    display: flex;
+    width: 100%;
+    text-decoration: none;
+    align-items: end;
+    justify-content: space-between;
+
+}
+.links > ul{
+    display: flex;
+    list-style: none;
+    gap: 5px;
+    align-items:center;
+    justify-content: left;
+}
+.nav ul li{
+    list-style: none;
+    text-decoration: none;
+    list-style: none;
+    font-size: auto;
+    font-family: sans-serif;
+    display: flex;
+    gap: 20px;
+    align-items:center;
+
+}
+.product{
+    display: flex;
+    height: auto;
+    width: 50%;
+
+}
+.content-right{
+    display: flex;
+    height: auto;
+    width: 50%;
+}
+.nav img{
+    height: 80px;
+    width: auto;
+    display:inline-flex;
+    margin-right: 900px;
+   align-items: center;
+    cursor: pointer;
+}
+.hero-text{
+    height: auto;
+    width: 50%;
+    display: table-row;
+    font-size:none;
+    font: 1em sans-serif;
+    background: none;
+
+}
+
+.hero img{
+    height: 100%;
+    width: auto;
+    display:flex;
+    justify-content: right;
+    gap: 40px;
+    flex-direction: column;
+    align-items: flex-start;
+    position: relative;
+}
+
+
+
+
+.card1-body{
+    background-color:#B9FF66 ;
+    display: inline-block;
+}
+
+.card2-body{
+    background-color:#B9FF66 ;
+    flex-direction: row;
+}
+
+nav ul li a:hover{
+    color: #B9FF66;
+}
+
+.btn-1{
+    background-color: black;
+    border-radius: 5px;
+    color: white;
+    margin: auto;
+    border: #B9FF66;
+    padding: 10px;
+}
+.btn-1 a:hover{
+    color: #B9FF66; 
+}
+
+/* Logos */
+.media-icons{
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 5px;
+gap: 20px;
+position: relative;
+width: 546.92px;
+height: 116px;
+left: -60px;
+top: 863px;
+}
+
+@media (max-width: 1200px) {}
+    .nav ul li{
+        margin-left: 20px;
+    }
+
+    .hero-text {
+        width: 100%;
+        padding: 40px;
+    }
+
+    .hero h1 {
+        font-size: 50px;
+    }
+
+    .hero-text p {
+        font-size: 22px;
+    }
